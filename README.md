@@ -1,1 +1,6 @@
-Sejam bem vindos ao Labe-commerce, esse repositório contém um esqueleto de app React e um .gitignore.
+# Lab e-commerce
+
+### Participantes:
+* André Luiz Gomes Pereira
+* Isis Pedroni
+* Patrick Oliveira
