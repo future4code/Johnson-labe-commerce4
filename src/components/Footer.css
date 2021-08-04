@@ -47,6 +47,12 @@
     margin-bottom: 12px;
 }
 
+a {
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: rgb(208, 208, 208);
+}
+
 
 
 
