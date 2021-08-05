@@ -1,5 +1,4 @@
 .header {
-    height: 60px;
     display: flex;
     align-items: center;
     background-color: #4B596B;
@@ -7,23 +6,59 @@
 
 }
 
+.Engloba{
+    display: flex;
+    
+}
+
 .header_logo {
-    width: 100px;
+    height: 80px;
     margin: 0 20px;
-   
+ 
 }
 
 .header h4 {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    align-items: center;
-    margin: 0 20px;
- 
+    /* align-items: center;
+    justify-content: center; */
 
 }
 
-.carrinho_menu{
-    margin: 0 20px;
-    height: 50px;
+.acesso_header{
+    display: flex;
    
 }
+
+.engloba_header{
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+
+.engloba_header button{
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    background: #4B596B;
+    border: 1px solid #fff;
+    padding: 8px 35px;
+    height: 2%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #ffffff;
+    color: #4B596B;
+  }
+  
+
+
+.carrinho_menu{
+    margin: 0 40px;
+    width: 40px;
+   
+}
+
