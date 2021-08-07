@@ -9,35 +9,35 @@ class Venda extends Component {
           <div className="home_row">
             <Produto
               id="1"
-              titulo="Lenovo Chromebook S330 Laptop, 14-Inch FHD (1920 x 1080) Display, MediaTek MT8173C Processor, 4GB"
-              preco={2550.79}
-              imagem="https://st2.myideasoft.com/idea/bx/06/myassets/products/558/lenovo-chromebook-s330-dizustu-bilgisayar-14-inc-fhd-1920-x-1080-9426-jpg.jpeg?revision=1602941394"
+              titulo="Ônibus espacial SPACE"
+              preco={250.79}
+              imagem="https://i.mlcdn.com.br/1500x1500/183892700.jpg"
             />
             <Produto
               id="2"
-              titulo="Fritadeira Elétrica Sem Óleo - Air Fryer Mondial AF-31 New Pratic 3,5L Preta com Timer 127v"
+              titulo="Roupa espacial viagem Apollo 11"
               preco={349.99}
-              imagem="https://images-americanas.b2w.io/produtos/01/00/img/134409/9/134409901_1SZ.jpg"
+              imagem="https://www.jornaljoca.com.br/wp-content/uploads/2015/02/astronauta-apollo11-bdb01.jpg"
             />
           </div>
           <div className="home__row">
             <Produto
               id="3"
-              titulo="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+              titulo="Camiseta Nasa Branca M"
               preco={199.99}
-              imagem="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+              imagem="https://img.elo7.com.br/product/zoom/2255380/camiseta-camisa-nasa-exploracao-espacial-liga.jpg"
             />
             <Produto
               id="4"
-              titulo="Cooktop à Gás Itatiaia 4 Bocas 620CT40153 - Bivolt"
+              titulo="Meteoritos diversos"
               preco={369.19}
-              imagem="https://images-americanas.b2w.io/produtos/01/00/img7/01/00/item/119768/0/119768076SZ.jpg"
+              imagem="https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2020/10/meteoritetypes-001.png"
             />
             <Produto
               id="5"
-              titulo="Kit Completo Ring Light Com Tripé Dimmer Youtuber Selfie Pro"
+              titulo="Kit Foguete e personagem Toy Store"
               preco={74.25}
-              imagem="https://images-americanas.b2w.io/produtos/01/00/img/100057/3/100057333_1SZ.jpg"
+              imagem="https://http2.mlstatic.com/D_NQ_NP_652602-MLB41731701299_052020-O.jpg"
             />
           </div>
         </div>
