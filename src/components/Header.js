@@ -16,9 +16,9 @@ function Header() {
             <div className="Engloba">
             <img
                 className="header_logo"
-                src="https://image.flaticon.com/icons/png/512/4342/4342171.png" alt="Logo" />
+                src="https://img-premium.flaticon.com/png/512/2578/premium/2578890.png?token=exp=1628363404~hmac=9fd843d05683c959f40a7fdb03f2a4f3" alt="Logo" />
             <div className="nome_marca">
-                <h4>EscolherNome</h4>
+                <h4>FreeRocket Marketplace</h4>
             </div>
             </div>
         
