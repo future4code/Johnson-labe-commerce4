@@ -1,46 +1,31 @@
-import React from 'react'
-import styled from 'styled-components';
+import React, { Component } from "react";
+import styled from "styled-components";
 
-const FiltersContainer = styled.div`
-  border: 1px solid black;
+const FiltroContainer = styled.div`
+  margin: 0;
+  box-shadow: darkgray 2px 2px 12px;
   padding: 8px;
 `;
 
-const InputContainer = styled.label`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 8px;
-`
+const InputsContainer = styled.div`
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+`;
 
-export class Filters extends React.Component {
+class Filtro extends Component {
   render() {
-    return <FiltersContainer>
-      <h3>Filtros</h3>
-        <InputContainer>
-          Valor mínimo:
-          <input
-            type="number"
-            value={this.props.minFiltro}
-            onChange={this.props.onChangeminFiltro}
-          />
-        </InputContainer>
-        <InputContainer>
-          Valor máximo:
-          <input
-            type="number"
-            value={this.props.maxFiltro}
-            onChange={this.props.onChangemaxFiltro}
-          />
-        </InputContainer>
-        <InputContainer>
-          Busca por nome:
-          <input
-            type="text"
-            value={this.props.nomeFiltro}
-            onChange={this.props.onChangeNomeFiltro}
-          />
-        </InputContainer>
-    </FiltersContainer>
+    return (
+      <FiltroContainer>
+        <h3>Filtros</h3>
+        <InputsContainer>
+          <input type="number" placeholder="Valor Mínimo" />
+          <input type="number" placeholder="Valor Máximo" />
+          <input type="text" placeholder="Nome do produto" />
+        </InputsContainer>
+      </FiltroContainer>
+    );
   }
 }
+
+export default Filtro;
