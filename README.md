@@ -6,7 +6,7 @@
 * Patrick Oliveira
 
 ### Modal Carrinho
-* Após teclar em cima do ícone "carrinho" teclar 'ESC' para sair ou clicar novamente no ícone.
+* Após teclar em cima do ícone "carrinho" teclar 'ENTER' para sair ou clicar novamente no ícone.
 
 #### Footer (Rodapé)
 * Links para outras páginas não funcionam ainda, pois estaremos desenvolvendo na segunda etapa do projeto. (Sempre que o usuário clicar, indicará uma alerta na tela a respeito da implementação)
