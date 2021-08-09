@@ -104,9 +104,10 @@ class App extends React.Component {
       });
     }
   };
+
   handleKeyPress = () => {
     window.addEventListener("keydown", (e) => {
-      if (e.key === 'Escape') {
+      if (e.key === 'Enter') {
         this.setState({
           mostraCarrinho: false,
         });
