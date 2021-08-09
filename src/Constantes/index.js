@@ -1,0 +1,58 @@
+export const listaProdutos = [
+    {
+      id: 1,
+      nomeDoProduto: "Foguete - Saturno V",
+      urlImagem: "https://upload.wikimedia.org/wikipedia/commons/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg",
+      valor: 1500.00,
+      quantidade: 1,
+    },
+    {
+      id: 2,
+      nomeDoProduto: "Foguete - Falcon Heavy",
+      urlImagem: "https://www.aereo.jor.br/wp-content/uploads//2018/02/Spacex-falcon-heavy.jpg",
+      valor: 2000.00,
+      quantidade: 1,
+    },
+    {
+      id: 3,
+      nomeDoProduto: "Foguete - Blue Origin",
+      urlImagem: "https://ogimg.infoglobo.com.br/in/21026018-643-5d9/FT1086A/652/ximagem-blue-origin-2.png.jpg.pagespeed.ic.p8TLSACpMJ.jpg",
+      valor: 3000.00,
+      quantidade: 1,
+    },
+    {
+      id: 4,
+      nomeDoProduto: "Onibus Espacial - Dream Chaser",
+      urlImagem: "http://s2.glbimg.com/7gNxoXC0ohDOvW32yjOE2I1Z2xA=/e.glbimg.com/og/ed/f/original/2017/08/25/aviacao.jpg",
+      valor: 4500.00,
+      quantidade: 1,
+    },
+    {
+      id: 5,
+      nomeDoProduto: "Onibus Espacial - Columbia",
+      urlImagem: "https://upload.wikimedia.org/wikipedia/commons/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg",
+      valor: 5000.00,
+      quantidade: 1,
+    },
+    {
+      id: 6,
+      nomeDoProduto: "Onibus Espacial - Enterprise",
+      urlImagem: "https://www.tribunapr.com.br/wp-content/uploads/sites/1/2012/06/07-06-12_enterpriseinterna.jpg",
+      valor: 6600.00,
+      quantidade: 1,
+    },
+    {
+      id: 7,
+      nomeDoProduto: "Nave - Destroyer",
+      urlImagem: "https://abrilvejasp.files.wordpress.com/2017/10/destroyer.jpg?quality=70&strip=info&w=650&h=371",
+      valor: 7750.00,
+      quantidade: 1,
+    },
+    {
+      id: 8,
+      nomeDoProduto: "Nave - Millenium Falcon",
+      urlImagem: "https://abrilvejasp.files.wordpress.com/2017/10/falcon.jpg?quality=70&strip=info&w=650&h=371",
+      valor: 8080.00,
+      quantidade: 1,
+    },
+  ]
