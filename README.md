@@ -5,6 +5,10 @@
 * Isis Pedroni
 * Patrick Oliveira
 
+## LINK Acesso ao E-commerce Free Rocket
+* http://freerocket.surge.sh/
+
+
 ### Modal Carrinho
 * Após teclar em cima do ícone "carrinho" teclar 'ENTER' para sair ou clicar novamente no ícone.
 
